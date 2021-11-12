@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Document</title>
+        <style>
+        body{
+            font-size:12px;
+        }
+        </style>
+        <script type="text/javascript">
+         document.write("<center>");
+            for(var i=1;i<=9;i++){
+                for(var j=1;j<=9-i;j++){
+                    document.write("");
+                }
+                for (var k=1;k<=2*i-1;k++){
+                    document.write("*");
+                }
+                document.write("</br>");
+            }
+            for (var i=1;i<=9-1;i++){
+                for (var j=1;j<=i;j++){
+                    document.write("");
+                }
+                for (var k=1;k<=2*9-1-2*i;k++){
+                    document.write("*");
+                }
+                document.write("</br>");
+            }
+            document.write("</center>");            
+
+        </script>
+    </head>
+    <body>
+        
+    </body>
+
+</html>
